@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <script>
+        function validateLogin() {
+          var username = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+    
+          // You can add your own validation logic here
+          // if (username == "admin" && password == "password") {
+            
+
+            alert("Login successful!");
+            window.open("index.html");
+            // Redirect to another page or perform additional actions
+          } 
+          
+        
+      </script> 
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+</body>
+</html>
+<div class="container">
+
+       
+    <div class="hero">  
+       <form action="" class="form">
+<div class="logo">G O R G E O U S  </div>
+        <input type="email" name="email" id="email" required class="input" placeholder="Phone, email address or username">
+       <input type="password" name="password" id="password" required="" class="input" placeholder="Password">   
+   
+     <input type="submit" value="Log in" class="input submit" onclick="validateLogin()">
+    
+    <p class="forgotten">Forgotten your login details ? <a href="#">Get help with signing in.</a></p>
+    <div class="or">or</div>
+<div class="input btn">Login with Email Account </div>    
+<p class="signup">Don't have an account ? <a href="">SignUp</a></p>
+</form>
+    </div>
+</div>

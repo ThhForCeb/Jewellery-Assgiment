@@ -1,0 +1,54 @@
+.detail{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-color: yellow;
+  }
+  
+  .detailleft{
+    width: 20%;
+    height: 700px;
+    text-align: center;
+    background-color: salmon;
+  }
+  
+  .lefttop img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  
+  }
+  
+  
+  .leftmid img{
+    width: 200px;
+    height: 200px;
+      
+  }
+  
+  
+  .leftbottom img{
+    width: 200px;
+    height: 200px;
+      
+  }
+  
+  .detailright{
+    width: 45%;
+    height: 700px;
+    background-color: green;
+  }
+  
+  .detailright img{
+    width: 600px;
+    height: 600px;
+    padding-top: 55px;
+    padding-left: 50px;
+  }
+  
+  
+  .detailcontent{
+    width: 35%;
+    height: 700px;
+    background-color: cyan;
+  }
